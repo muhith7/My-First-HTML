@@ -22,6 +22,17 @@
   text-align: center;
   color: white;
 }
+table,td,th{
+            border: 2px solid black;
+            border-collapse: collapse;
+        
+        }
+        td{
+            text-align: center;
+        }
+        th{
+            background-color: aqua;
+        }
 
 
 
@@ -51,6 +62,58 @@
     />
     <br>
     <a href="https://dinperta.bojonegorokab.go.id/berita/baca/132">Artikel Lengkap Hidroponik</a>
+
+    <h1>Membuat Table Pada HTML</h1>
+    <table style="width: 400px; height: 180px;">
+        <tr style="height: 50px;">
+            <th colspan="2" style="width: 150px;">NAMA dan NIM</th>
+            <th>KELAS</th>
+        </tr>
+        <tr>
+            <td>ABDUL</td>
+            <td>22090095</td>
+            <td>A</td>
+        </tr>
+        <tr>
+            <td>MUHITH</td>
+            <td>22090095</td>
+            <td>A</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <table style="width: 400px; height: 180px;">
+        <tr style="height: 50px;">
+            <th style="width: 150px;">NAMA</th>
+            <th>NIM</th>
+            <th>KELAS</th>
+        </tr>
+        <tr>
+            <td>ABDUL</td>
+            <td>22090095</td>
+            <td rowspan="2">A</td>
+        </tr>
+        <tr>
+            <td>MUHITH</td>
+            <td>22090095</td>
+            
+        </tr>
+    </table>
+
+    <br>
+
+    <h1>HTML FORM</h1>
+
+    <form action="praktek.html">
+        <label for="fname">Firts Name:</label><br>
+        <input type="text" id="fname" name="fname" value="MUHITH"><br>
+        <label for="lname">Last Name</label><br>
+        <input type="text" id="lname" name="lname" value="NAWAWI"><br>
+        <input type="submit" value="Submit">
+    </form> 
+
+    
 
 
     <footer>
